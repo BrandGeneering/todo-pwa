@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# first_pwa
 
-## Available Scripts
+This project is focused on building a PWA with React, CRA, and Node JS. 
 
-In the project directory, you can run:
+## Tutorial basis
 
-### `yarn start`
+The tutorial used in this exercise is taken from egghead.io:
+https://egghead.io/courses/progressive-web-apps-in-react-with-create-react-app
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+From egghead:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+"Progressive Web Apps (PWAs) allow a user to use your web app online or offline, and lets them install the app onto their iOS or Android device just like a native app. Sounds great, right? But it can be tricky to properly configure a PWA, and not every feature works on every browser or device.
 
-### `yarn test`
+In this course, we’ll create an online/offline note taking app. We’ll use create-react-app to create the frontend, and node.js to create a simple backend. We’ll start by making sure the app can be displayed offline with cached resources, and learn how to persist data while the app is in offline mode. We’ll also interact with native features like the camera, and learn how to let users install the app on their phone home screen. Then we’ll customize the appearance of the app, including the app icon, splash screen, and phone status bar.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Finally, we’ll deploy the production app to heroku. By the end of this course, you will have everything you need to create a Progressive Web App with React."
 
-### `yarn build`
+## Starting the application in terminal
+Inside that directory, you can run several commands:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  yarn start
+    Starts the development server.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  yarn build
+    Bundles the app into static files for production.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  yarn test
+    Starts the test runner.
 
-### `yarn eject`
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We suggest that you begin by typing:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  cd todo-pwa
+  yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  
